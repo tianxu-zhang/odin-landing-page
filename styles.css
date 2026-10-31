@@ -23,6 +23,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 .header,
 .hero,
@@ -58,20 +59,22 @@ button {
   background-color: #3882f6;
   color: #f9faf8;
   border-radius: 8px;
-  padding: 5px 30px;
+  padding: 8px 40px;
+  font-size: 20px;
   align-self: flex-start;
+  border: 1px solid #1f2937;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 80px;
+  padding: 10px 200px;
 }
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px;
+  padding: 100px 200px;
   gap: 40px;
 }
 .left {
@@ -87,12 +90,12 @@ button {
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 80px;
 }
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border: 3px solid #3882f6;
   border-radius: 8px;
 }
@@ -101,6 +104,7 @@ button {
   font-weight: 900;
   text-align: center;
   color: #1f2937;
+  margin: 60px;
 }
 .card p {
   margin: 0;
@@ -114,15 +118,18 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 200px;
+  padding: 100px 300px;
   background-color: #e5e7eb;
+}
+.quote p {
   font-size: 36px;
   font-weight: 300px;
   font-style: italic;
   color: #1f2937;
+  margin: 0;
 }
 
-.author {
+.quote .author {
   align-self: flex-end;
   font-weight: 700;
   font-size: 20px;
@@ -132,22 +139,32 @@ button {
 .sign-up {
   background-color: #3882f6;
   color: #f9faf8;
-  margin: 80px 150px;
+  margin: 80px 180px;
   padding: 40px 80px;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.sign-up .left {
+  gap: 5px;
+}
 .sign-up button {
   border: 2px solid #f9faf8;
   align-self: center;
-  font-size: 18px;
 }
-
-.call {
-  font-size: 20px;
-  font-weight: 700;
+.sign-up p {
   margin: 0;
+}
+.call {
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer {
+  color: #e5e7eb;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
